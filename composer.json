@@ -1,6 +1,6 @@
 {
     "name": "orzorc/image2excel",
-    "description": "Convert image to excel with background",
+    "description": "Convert image to pixel-style excel file",
     "type": "library",
     "license": "MIT",
     "authors": [
