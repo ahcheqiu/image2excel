@@ -1,0 +1,25 @@
+{
+    "name": "orzorc/image2excel",
+    "description": "Convert image to excel with background",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "orzorc",
+            "email": "qiucheng48@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-gd": "*",
+        "box/spout": "^3.1"
+    },
+    "require-dev": {
+        "pear/console_commandline": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orzorc\\Image2Excel\\": "src/Image2Excel"
+        }
+    }
+}
