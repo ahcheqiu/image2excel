@@ -8,5 +8,21 @@ Convert image to pixel-style excel file
 3. 转化时会按照原图比例转化，已保证不超出设置的最大宽高
 
 ### Usage 使用方式
-请参考``demo/test.php``
-运行``php demo/test.php --help`` 
+代码使用方式，请参考``demo/test.php``
+
+看效果请运行``php demo/test.php --help`` 
+
+添加到自己的项目中
+```JSON
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ahcheqiu/image2excel"
+        }
+    ],
+    "require": {
+        "orzorc/image2excel": "*"
+    }
+}
+```
