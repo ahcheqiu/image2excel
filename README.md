@@ -9,3 +9,4 @@ Convert image to pixel-style excel file
 
 ### Usage 使用方式
 请参考``demo/test.php``
+运行``php demo/test.php --help`` 
